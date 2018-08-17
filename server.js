@@ -2,7 +2,7 @@ const express = require('express');
 const pg = require('pg');
 require('dotenv').config();
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
 const DATABASE_URL = process.env.DATABASE_URL;
 
 const app = express();
